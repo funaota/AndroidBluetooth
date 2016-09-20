@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('/Applications/Unity/Unity.app/Contents/PlaybackEngines/AndroidPlayer/release/bin/classes.jar')  /*追記する行,classes.jarを追加する*/
+    compile files('/Users/takujifunao/Library/Android/sdk/platforms/android-23/android.jar')
+}
